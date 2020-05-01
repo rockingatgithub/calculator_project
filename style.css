@@ -1,0 +1,61 @@
+
+/* Inline #2 | file:///C:/Users/raja/Documents/GitHub/calculator_project/index.html */
+
+#calc-container {
+    border: 1px solid black;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 28%;
+    height: auto;
+    width: 400px;
+    margin-bottom: 40px;
+  }
+
+  
+/* Inline #2 | file:///C:/Users/raja/Documents/GitHub/calculator_project/index.html */
+
+#calc-heading {
+    margin-left: 90px;
+    border: 1px solid black;
+  }
+  
+  #display-box {
+    height: 50px;
+    width: 390px;
+    border: 1px solid black;
+    margin-left: 5px;
+  }
+  
+  #key-box {
+    height: 180px;
+    width: 390px;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .calc-row {
+    height: auto;
+    width: 380px;
+    border: 1px solid black;
+  }
+  
+  #key-box {
+    /* height: 180px; */
+    height: auto;
+  }
+  
+  .calc-button {
+    height: 40px;
+    width: 81px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .calc-row {
+    margin-left: 5px;
+  }
+  
+  /* style.css | file:///C:/Users/raja/Documents/GitHub/calculator_project/style.css */
+  
