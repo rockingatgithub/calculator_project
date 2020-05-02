@@ -3,7 +3,7 @@
         <title>calci</title>
         <link rel="stylesheet" href="style.css">
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript" src="index2.js"></script>
     </head>
     <body>
         <div id="calc-container">
@@ -12,33 +12,33 @@
             </div>
             <div id="key-box">
                 <div id="row1" class="calc-row">
-                    <button id="ac" class="calc-button" onclick="funac()"><span class="button-text">AC</span></button>
-                    <button id="plus-minus" class="calc-button" onclick="funint()"><span class="button-text">+/-</span></button>
-                    <button id="modulous" class="calc-button" onclick="funmod()"><span class="button-text">%</span></button>
-                    <button id="divison" class="calc-button" onclick="fundiv()"><span class="button-text">/</span></button>
+                    <button id="ac" class="calc-button" onclick="funclear()"><span class="button-text">AC</span></button>
+                    <button id="plus-minus" class="calc-button" onclick="insert('*-1')"><span class="button-text">+/-</span></button>
+                    <button id="modulous" class="calc-button" onclick="insert('%')"><span class="button-text">%</span></button>
+                    <button id="divison" class="calc-button" onclick="insert('/')"><span class="button-text">/</span></button>
                 </div>
                 <div id="row2" class="calc-row">
-                    <button id="seven" class="calc-button" onclick="printseven()"><span class="button-text">7</span></button>
-                    <button id="eight" class="calc-button" onclick="printeight()"><span class="button-text">8</span></button>
-                    <button id="nine" class="calc-button" onclick="printnine()"><span class="button-text">9</span></button>
-                    <button id="multiplication" class="calc-button" onclick="funmul()"><span class="button-text">*</span></button>
+                    <button id="seven" class="calc-button" onclick="insert(7)"><span class="button-text">7</span></button>
+                    <button id="eight" class="calc-button" onclick="insert(8)"><span class="button-text">8</span></button>
+                    <button id="nine" class="calc-button" onclick="insert(9)"><span class="button-text">9</span></button>
+                    <button id="multiplication" class="calc-button" onclick="insert('*')"><span class="button-text">*</span></button>
                 </div>
                 <div id="row3" class="calc-row">
-                    <button id="four" class="calc-button" onclick="printfour()"><span class="button-text">4</span></button>
-                    <button id="five" class="calc-button" onclick="printfive()"><span class="button-text">5</span></button>
-                    <button id="six" class="calc-button" onclick="printsix()"><span class="button-text">6</span></button>
-                    <button id="minus" class="calc-button" onclick="funsub()"><span class="button-text">-</span></button>
+                    <button id="four" class="calc-button" onclick="insert(4)"><span class="button-text">4</span></button>
+                    <button id="five" class="calc-button" onclick="insert(5)"><span class="button-text">5</span></button>
+                    <button id="six" class="calc-button" onclick="insert(6)"><span class="button-text">6</span></button>
+                    <button id="minus" class="calc-button" onclick="insert('-')"><span class="button-text">-</span></button>
                 </div>
                 <div id="row4" class="calc-row">
-                    <button id="one" class="calc-button" onclick="printone()"><span class="button-text">1</span></button>
-                    <button id="two" class="calc-button" onclick="printtwo()"><span class="button-text">2</span></button>
-                    <button id="three" class="calc-button" onclick="printthree()"><span class="button-text">3</span></button>
-                    <button id="plus" class="calc-button" onclick="funadd()"><span class="button-text">+</span></button>
+                    <button id="one" class="calc-button" onclick="insert(1)"><span class="button-text">1</span></button>
+                    <button id="two" class="calc-button" onclick="insert(2)"><span class="button-text">2</span></button>
+                    <button id="three" class="calc-button" onclick="insert(3)"><span class="button-text">3</span></button>
+                    <button id="plus" class="calc-button" onclick="insert('+')"><span class="button-text">+</span></button>
                 </div>
                 <div id="row5" class="calc-row">
-                    <button id="zero" class="calc-button" onclick="printzero()"><span class="button-text">0</span></button>
-                    <button id="ten" class="calc-button" onclick="printten()"><span class="button-text">10</span></button>
-                    <button id="decimal" class="calc-button" onclick="fundec()"><span class="button-text">.</span></button>
+                    <button id="zero" class="calc-button" onclick="insert(0)"><span class="button-text">0</span></button>
+                    <button id="ten" class="calc-button" onclick="insert(10)"><span class="button-text">10</span></button>
+                    <button id="decimal" class="calc-button" onclick="insert('.')"><span class="button-text">.</span></button>
                     <button id="equals" class="calc-button" onclick="funequal()"><span class="button-text">=</span></button>
                 </div>
             </div>
